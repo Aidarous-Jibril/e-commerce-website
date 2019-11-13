@@ -1,0 +1,24 @@
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+  
+    .title {
+      margin: 10px 0;
+    }
+
+    @media screen and (max-width: 800px){
+      width: unset;
+      padding: 10px 30px;
+      margin-bottom: 50px;
+      h2 {
+        color: blue;
+        text-align: center;
+        font-size: 2.0em;
+      }
+      .span{
+        color: #000000;
+        text-align: center;
+      }
+    }
+  }

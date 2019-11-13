@@ -1,0 +1,32 @@
+.sign-in {
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+
+  .title {
+    margin: 10px 0;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  @media screen and (max-width: 800px){
+    width: unset;
+    padding: 10px 30px;
+    margin-bottom: 50px;
+    .title {
+      font-size: 2.0em;
+      color: blue;
+      text-align: center;
+    }
+    .span{
+      color: #000000;
+      text-align: center;
+    }
+    .buttons {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
